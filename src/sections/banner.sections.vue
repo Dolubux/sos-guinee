@@ -24,7 +24,7 @@ const modules = [Navigation, Pagination, A11y, Autoplay];
          delay: 5000,
          disableOnInteraction: false,
       }"
-      class="h-[30rem]"
+      class="h-[35rem] md:h-[30rem]"
    >
       <swiper-slide class="flex relative w-full" v-for="banner in ConfSite.sliders">
          <div class="bg-white/40 w-full h-full absolute"></div>
@@ -40,7 +40,7 @@ const modules = [Navigation, Pagination, A11y, Autoplay];
                <div class="p-4">
                
                <img class="h-8 " :src="pay.image" alt="">
-                  <span class="text-lg font-bold"> {{ pay.tel }} </span>
+                  <span class="text-base md:text-lg font-bold"> {{ pay.tel }} </span>
                </div>
             </div>
          </div>
