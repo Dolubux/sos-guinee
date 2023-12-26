@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/pages//home.page.vue'
+import Home from './../pages/home.page.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -10,7 +10,7 @@ export default createRouter({
     },
     {
       path: '/admin',
-      component: () => import('@/admin/index.admin.vue'),
+      component: () => import('./../admin/index.admin.vue'),
     },
   ],
 })
