@@ -21,10 +21,10 @@ const modules = [Navigation, Pagination, A11y, Autoplay];
       :pagination="{ clickable: true }"
       :slides-per-view="1"
       :autoplay="{
-         delay: 2500,
+         delay: 5000,
          disableOnInteraction: false,
       }"
-      class="h-[35rem]"
+      class="h-[30rem]"
    >
       <swiper-slide class="flex relative w-full" v-for="banner in ConfSite.sliders">
          <div class="bg-white/40 w-full h-full absolute"></div>

@@ -68,7 +68,7 @@
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
                         <a href="tel:+224 628 00 00 00" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+224 628 00 00 00</a>
-                        <a href="mailto:infos@.sosguinéécoronthie.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">infos@.sosguinéécoronthie.org</a>
+                        <a href="mailto:infos@.solidariteguinéécoronthie.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">infos@.solidariteguinéécoronthie.org</a>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
         <hr class="h-px my-6 bg-gray-200 border-none dark:bg-gray-700">
 
         <div>
-            <p class="text-center text-gray-500 dark:text-gray-400">© 2023 -  Sos Guinée Coronthie - Tout droit reserver</p>
+            <p class="text-center text-gray-500 dark:text-gray-400">© 2023 -  Solidarité Guinée Coronthie - Tout droit reserver</p>
         </div>
     </div>
 </footer>

@@ -29,7 +29,7 @@ const CloseMenu = () => {
 
 
 <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
-  <nav class="max-w-[85rem] w-full mx-auto px-4 md:flex sm:items-center sm:justify-between" aria-label="Global">
+  <nav class="max-w-[85rem] w-full mx-auto px-8 md:flex sm:items-center sm:justify-between" aria-label="Global">
     <div class="flex items-center justify-between">
       <a class="flex-none text-xl font-semibold " href="#">
         <div class="">
@@ -48,7 +48,7 @@ const CloseMenu = () => {
         <div v-for="link in ConfSite.menu">
         <a :href="link.link" class=""> {{ link.name }} </a>
     </div>
-    <button class="bg-red-400 text-white px-4 py-2 rounded-lg font-bold text-base">Faites un don</button>
+    <a href="#spaceDaonation" class="bg-red-400 text-white px-4 py-2 rounded-lg font-bold text-base">Faites un don</a>
       </div>
     </div>
 

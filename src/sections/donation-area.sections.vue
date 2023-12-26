@@ -1,6 +1,7 @@
 <script setup lang="ts">
 
  import {ConfSite} from "./../configurations/header"
+ import Vue3Autocounter from 'vue3-autocounter';
 
 </script>
 
@@ -19,8 +20,10 @@
 
 
 
-<div class="rounded-b-xl flex justify-center text-2xl  md:text-4xl font-bold text-red-400 mt-8">
-     100.000GNF Collecter
+<div class="rounded-b-xl flex justify-center text-2xl  md:text-4xl font-bold text-red-400 mt-8  gap-2">
+
+
+     <vue3-autocounter ref='counter' :startAmount='0' :endAmount='100000' :duration='3' prefix='' suffix='GNF' separator=',' decimalSeparator='.' :decimals='2' :autoinit='true' /> Collecté
 
 </div>
 
