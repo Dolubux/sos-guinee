@@ -4,7 +4,7 @@
 
 <template>
 
-<footer class="bg-white dark:bg-gray-900 border-t-[1px]">
+<footer class="bg-white dark:bg-gray-900 border-t-[1px]" id="footer">
     <div class="container p-6 mx-auto">
         <div class="lg:flex">
             <div class="w-full -mx-6 lg:w-2/5">
@@ -53,22 +53,22 @@
                 <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">A Propos</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Qu’est-ce qu’il s’est passé ?</a>
+                        <a href="#abouts" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Qu’est-ce qu’il s’est passé ?</a>
                     </div>
 
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">Faire un don</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Pourquoi donner ?</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Espace de don</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tutoriel</a>
+                        <a href="#whyGive" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Pourquoi donner ?</a>
+                        <a href="#spaceDaonation" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Espace de don</a>
+                        <a href="#tutoriel" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tutoriel</a>
                     </div>
 
                  
 
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
-                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+224 628 00 00 00</span>
-                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">infos@.sosguinéécoronthie.org</span>
+                        <a href="tel:+224 628 00 00 00" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+224 628 00 00 00</a>
+                        <a href="mailto:infos@.sosguinéécoronthie.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">infos@.sosguinéécoronthie.org</a>
                     </div>
                 </div>
             </div>

@@ -9,23 +9,23 @@ export const ConfSite = {
       },
       {
          name: 'A Propos',
-         link: '',
+         link: '#abouts',
       },
       {
          name: 'Pourquoi donner ?',
-         link: '',
+         link: '#whyGive',
       },
       {
          name: 'Tutoriel',
-         link: '',
+         link: '#tutoriel',
       },
       {
          name: 'Actulités',
-         link: '',
+         link: '#actuality',
       },
       {
          name: 'Contacts',
-         link: '',
+         link: '#footer',
       },
    ],
 
@@ -66,12 +66,12 @@ export const ConfSite = {
    why: [
       {
          title: "Aide d'Urgence",
-         content: `-Assurer la survie et le bien-être immédiat des personnes touchées.
+         content: `Assurer la survie et le bien-être immédiat des personnes touchées.
          Aider les victimes à reconstruire leur vie en finançant la reconstruction des habitations détruites et en facilitant la réinstallation dans des conditions sécurisées.`
       },
       {
          title: "Logement et Réinstallation",
-         content: `-Fournir un logement stable et sûr aux personnes déplacées par l'incendie.
+         content: `Fournir un logement stable et sûr aux personnes déplacées par l'incendie.
          Aider les victimes à reconstruire leur vie en finançant la reconstruction des habitations détruites et en facilitant la réinstallation dans des conditions sécurisées.`
       },
       {

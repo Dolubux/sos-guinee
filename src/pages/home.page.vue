@@ -19,7 +19,7 @@ import { ConfSite } from './../configurations/header';
       <WhyGiveSections />
       <DonationAreaSections />
 
-      <div class="w-11/12 m-auto  flex flex-col md:flex  md:flex-row justify-between  py-32 gap-8 items-center">
+      <div class="w-11/12 m-auto  flex flex-col md:flex  md:flex-row justify-between  py-32 gap-8 items-center" id="tutoriel">
          <div class="flex flex-col w-11/12 md:w-5/12 gap-2">
             <Hedding name="Tutoriel" />
 
@@ -39,7 +39,7 @@ import { ConfSite } from './../configurations/header';
          </div>
       </div>
 
-      <div class="w-11/12 m-auto flex flex-col justify-between pb-32 gap-8">
+      <div class="w-11/12 m-auto flex flex-col justify-between pb-32 gap-8" id="actuality">
          <Hedding name="Actualité" />
 
          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

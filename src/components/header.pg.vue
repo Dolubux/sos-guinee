@@ -46,7 +46,7 @@ const CloseMenu = () => {
     <div id="navbar-with-collapse" class="hidden basis-full grow md:block">
       <div class="flex flex-col gap-8 mt-5 text-lg sm:flex-row sm:items-center text-gray-700 sm:justify-end sm:mt-0 sm:ps-5 ">
         <div v-for="link in ConfSite.menu">
-        <a href="" class=""> {{ link.name }} </a>
+        <a :href="link.link" class=""> {{ link.name }} </a>
     </div>
     <button class="bg-red-400 text-white px-4 py-2 rounded-lg font-bold text-base">Faites un don</button>
       </div>
