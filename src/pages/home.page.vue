@@ -19,8 +19,8 @@ import { ConfSite } from './../configurations/header';
       <WhyGiveSections />
       <DonationAreaSections />
 
-      <div class="w-11/12 m-auto flex justify-between py-32 gap-8 items-center">
-         <div class="flex flex-col w-5/12 gap-2">
+      <div class="w-11/12 m-auto  flex flex-col md:flex  md:flex-row justify-between  py-32 gap-8 items-center">
+         <div class="flex flex-col w-11/12 md:w-5/12 gap-2">
             <Hedding name="Tutoriel" />
 
             <div class="texts-sm">
@@ -34,7 +34,7 @@ import { ConfSite } from './../configurations/header';
             </div>
          </div>
 
-         <div class="w-7/12 h-8/12 border-2">
+         <div class="w-11/12 md:w-7/12 h-full border-2">
             <video width="" height="" class="h-full w-full" controls></video>
          </div>
       </div>
@@ -42,7 +42,7 @@ import { ConfSite } from './../configurations/header';
       <div class="w-11/12 m-auto flex flex-col justify-between pb-32 gap-8">
          <Hedding name="Actualité" />
 
-         <div class="grid grid-cols-3 gap-4">
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div v-for="A in ConfSite.actuality">
                <div class="flex flex-col gap-2 rounded-xl border-[1px]">
                   <div class="w-full rounded-xl">

@@ -9,6 +9,7 @@
 
   color-scheme: light dark;
   background-color: #fff;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

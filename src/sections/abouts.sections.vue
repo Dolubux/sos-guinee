@@ -3,15 +3,15 @@ import Hedding from '../components/hedding.vue';
 </script>
 
 <template>
-   <div class="flex items-center gap-8 w-11/12 m-auto py-24">
+   <div class="items-center gap-8 w-11/12 m-auto py-24 sm:flex sm:flex-col md:flex-row">
 
-    <div class="w-4/12 h-[24em] ">
+    <div class="sm:w-8/12 md:w-8/12 lg:w-4/12 h-[24em] ">
          <img class="w-full h-full object-cover rounded-lg" src="https://img.freepik.com/photos-gratuite/paysage-incendies-foret-extremes_23-2150880205.jpg?size=626&ext=jpg&ga=GA1.1.401016479.1673963877&semt=sph" alt="" />
       </div>
 
-      <div class="w-8/12  flex flex-col gap-1 ">
-         <Hedding name="Qu’est-ce qu’il s’est passé ?" />
-         <p class=" text-lg">
+      <div class="sm:w-8/12 md:w-11/12  flex flex-col gap-1 ">
+         <Hedding name="Qu’est-ce qu’il s’est passé ?" />
+         <p class=" text-lg text-gray-700">
             Le quartier Coronthie, à Conakry en Guinée, est le lieu où se trouve
             l'unique dépôt d'hydrocarbures : l'African Petroleum Terminal (APT).
             Ce dépôt est responsable du stockage de tout le carburant importé
