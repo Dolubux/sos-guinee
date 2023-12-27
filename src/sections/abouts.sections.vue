@@ -10,7 +10,7 @@ import Hedding from '../components/hedding.vue';
       </div>
 
       <div class="sm:w-8/12 md:w-11/12  flex flex-col gap-1 ">
-         <Hedding name="Qu’est-ce qu’il s’est passé ?" />
+         <Hedding name="Que s’est-il passé ?" />
          <p class=" text-lg text-gray-700">
             Le quartier Coronthie, à Conakry en Guinée, est le lieu où se trouve
             l'unique dépôt d'hydrocarbures : l'African Petroleum Terminal (APT).

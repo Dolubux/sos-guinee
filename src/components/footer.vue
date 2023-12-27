@@ -53,7 +53,7 @@
                 <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">A Propos</h3>
-                        <a href="#abouts" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Qu’est-ce qu’il s’est passé ?</a>
+                        <a href="#abouts" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Que s’est-il passé ?</a>
                     </div>
 
                     <div>

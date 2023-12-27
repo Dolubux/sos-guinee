@@ -23,7 +23,7 @@
 <div class="rounded-b-xl flex justify-center text-2xl  md:text-4xl font-bold text-red-400 mt-8  gap-2">
 
 
-     <vue3-autocounter ref='counter' :startAmount='0' :endAmount='100000' :duration='3' prefix='' suffix='GNF' separator=',' decimalSeparator='.' :decimals='2' :autoinit='true' /> Collecté
+     <vue3-autocounter ref='counter' :startAmount='0' :endAmount='0' :duration='3' prefix='' suffix='GNF' separator=',' decimalSeparator='.' :decimals='2' :autoinit='true' /> Collecté
 
 </div>
 
@@ -31,7 +31,7 @@
 
 </div>
 
-<div class="w-fill grid md:grid-cols-1 lg:grid-cols-3 sm:divide-y-[1px]  md:divide-x-[1px] border-b-[1px]">  
+<div class="w-fill grid md:grid-cols-1 lg:grid-cols-2 sm:divide-y-[1px]  md:divide-x-[1px] border-b-[1px]">  
     <div v-for="pay in ConfSite.pay">
         
         <div class="flex gap-4 py-4 px-8">
