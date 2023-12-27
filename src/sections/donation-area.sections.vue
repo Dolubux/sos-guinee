@@ -13,7 +13,7 @@
 <div class="text-white flex flex-col gap-2 justify-center items-center z-50   w-10/12 md:w-7/12 m-auto">
 
     <span class=" text-4xl font-extrabold">Espace de don </span>
-    <span class=" text-center sm:text-sm md:text-base"> Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore mollitia reprehenderit libero alias delectus laboriosam autem molestiae nemo. Repellendus blanditiis ab possimus ipsum illum obcaecati maiores reiciendis reprehenderit veniam! </span>
+    <span class=" text-center sm:text-sm md:text-base"> Grâce à vos dons, nous reconstruisons des vies. Chaque geste, peu importe la taille, a un impact immense. Rejoignez-nous dans cet effort de solidarité. Donnez aujourd'hui pour un meilleur demain. </span>
 </div>
 
 

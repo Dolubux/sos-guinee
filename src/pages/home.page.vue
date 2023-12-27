@@ -24,9 +24,7 @@ import { ConfSite } from './../configurations/header';
             <Hedding name="Tutoriel" />
 
             <div class="texts-sm">
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
-               quod totam rerum impedit nesciunt beatae ipsa eos quam explicabo
-               vero facere, soluta praesentium sapiente corrupti.
+               Cette vidéo vous explique en détail, comment faire un don via nos différents moyens de paiement.
             </div>
 
             <div class="">
@@ -54,8 +52,8 @@ import { ConfSite } from './../configurations/header';
                   </div>
 
                   <div class="p-4 flex flex-col gap-2">
-                     <span class="font-bold text-xl"> {{ A.title }} </span>
-                     <span class="text-smx"> {{ A.content }} </span>
+                     <span class="font-bold text-xl "> {{ A.title.substring(0, 65) }}{{ A.title.length >= 65 ? '...': '' }}</span>
+                     <span class="text-smx"> {{ A.content.substring(0, 180) }}{{ A.content.length >= 180 ? '...': '' }} </span>
                   </div>
                </div>
             </div>
