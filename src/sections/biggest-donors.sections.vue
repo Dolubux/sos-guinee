@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Hedding from '../components/hedding.vue';
-import { Swiper, SwiperSlide } from 'swiper/vue';
+// import { Swiper, SwiperSlide } from 'swiper/vue';
 import { ConfSite } from './../configurations/control.config';
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 import Vue3Autocounter from 'vue3-autocounter';
