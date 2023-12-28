@@ -22,8 +22,8 @@ import { ConfSite } from './../configurations/control.config';
                   </div>
 
                   <div class="p-4 flex flex-col gap-2">
-                     <span class="font-bold text-xl "> {{ A.title.substring(0, 65) }}{{ A.title.length >= 65 ? '...': '' }}</span>
-                     <span class="text-smx"> {{ A.content.substring(0, 180) }}{{ A.content.length >= 180 ? '...': '' }} </span>
+                     <span class="font-bold text-xl "> {{ A.title.substring(0, 75) }}{{ A.title.length >= 75 ? '...': '' }}</span>
+                     <span class="text-smx"> {{ A.content.substring(0, 190) }}{{ A.content.length >= 190 ? '...': '' }} </span>
                   </div>
                </div>
             </div>

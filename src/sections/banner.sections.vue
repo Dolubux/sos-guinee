@@ -21,7 +21,7 @@ const modules = [Navigation, Pagination, A11y, Autoplay];
       :pagination="{ clickable: true }"
       :slides-per-view="1"
       :autoplay="{
-         delay: 5000,
+         delay: 10000,
          disableOnInteraction: false,
       }"
       class="h-[10rem] md:h-[30rem]"

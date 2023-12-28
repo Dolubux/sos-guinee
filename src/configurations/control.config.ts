@@ -37,7 +37,7 @@ export const ConfSite = {
          link: '#tutoriel',
       },
       {
-         name: 'Actulités',
+         name: 'Actualités',
          link: '#actuality',
       },
       {
@@ -50,6 +50,41 @@ export const ConfSite = {
       name: 'Solidarité Guinée Coronthie',
       image: ImageLogo,
       copyright: '© 2023 -  Solidarité Guinée Coronthie - Tout droit reserver'
+   },
+   sections: {
+      abouts: {
+         title: 'Que s’est-il passé ?',
+         content: `Le quartier Coronthie, à Conakry en Guinée, est le lieu où se trouve
+         l'unique dépôt d'hydrocarbures : l'African Petroleum Terminal (APT).
+         Ce dépôt est responsable du stockage de tout le carburant importé
+         destiné à la distribution dans les stations à travers le pays.
+         Malheureusement, le 19 décembre 2023, une explosion dévastatrice a
+         frappé ce dépôt, causant de nombreux dégâts. La commune de Kaloum a
+         été particulièrement touchée, avec de nombreux immeubles sévèrement
+         endommagés. Outre les pertes humaines (23 vies perdues et de
+         nombreux blessés), les dégâts matériels sont considérables, laissant
+         de nombreux résidents sans abri et dans le besoin. Cette catastrophe
+         a eu des répercussions dévastatrices sur la communauté, mettant en
+         évidence la nécessité d'une aide urgente et significative. Nous vous
+         invitons à donner avec le cœur afin de venir en aide aux sinistrés
+         de cette catastrophe.`,
+         ohters: []
+      },
+      donationsArea: {
+         title: 'Espace de don',
+         content: ` Grâce à vos dons, nous reconstruisons des vies. Chaque geste, peu
+         importe la taille, a un impact immense. Rejoignez-nous dans cet
+         effort de solidarité. Donnez aujourd'hui pour un meilleur demain.`,
+         ohters: []
+      },
+      tutoriel: {
+         title: 'Tutoriel',
+         content: `Cette vidéo vous explique en détail, comment faire un don via nos différents moyens de paiement.`
+      },
+      biggestDonars: {
+         title: 'Les plus grands donateurs',
+         content: `Votre don est une source d'inspiration pour nous tous. Il nous montre que nous ne sommes pas seuls dans notre engagement à reconstruire des vies.`
+      }
    },
 
    contact: {
@@ -177,4 +212,43 @@ export const ConfSite = {
          tel: 'GN14 2004 1010 0505 0001 3M02 606',
       },
    ],
+
+   biggestDonars: [
+      {
+         image: 'https://img.freepik.com/photos-gratuite/portrait-homme-moderne-dans-cafe_23-2148956928.jpg?size=626&ext=jpg&ga=GA1.1.401016479.1673963877&semt=ais',
+         name: 'Diallo ukila',
+         account: 100000000,
+         prefix: 'GNF'
+      },
+      {
+         image: 'https://img.freepik.com/photos-gratuite/femme-au-salon-coiffure-latino_23-2150286040.jpg?size=626&ext=jpg&ga=GA1.1.401016479.1673963877&semt=ais',
+         name: 'Barry Michelle',
+         account: 5500000,
+         prefix: 'GNF'
+      },
+      {
+         image: 'https://img.freepik.com/photos-gratuite/homme-afro-americain-portant-chapeau-elegant_23-2148634061.jpg?size=626&ext=jpg&ga=GA1.1.401016479.1673963877&semt=ais',
+         name: 'Keita Sadanogo Mori',
+         account: 4100000,
+         prefix: 'GNF'
+      },
+      // {
+      //    image: 'https://img.freepik.com/photos-gratuite/portrait-femme-affaires-confiant-visage-souriant_53876-137693.jpg?size=626&ext=jpg&ga=GA1.1.401016479.1673963877&semt=ais',
+      //    name: 'Keita pépé',
+      //    account: 3500000,
+      //    prefix: 'GNF'
+      // },
+      // {
+      //    image: 'https://img.freepik.com/photos-gratuite/homme-afro-americain-portant-chapeau-elegant_23-2148634061.jpg?size=626&ext=jpg&ga=GA1.1.401016479.1673963877&semt=ais',
+      //    name: 'Sadanogo felix',
+      //    account: 2600000,
+      //    prefix: 'GNF'
+      // },
+      // {
+      //    image: 'https://img.freepik.com/photos-gratuite/portrait-jeune-femme-souriante-isolee_23-2149158566.jpg?size=626&ext=jpg&ga=GA1.1.401016479.1673963877&semt=ais',
+      //    name: 'Balde sarah catherine',
+      //    account: 1400000,
+      //    prefix: 'GNF'
+      // },
+   ]
 };

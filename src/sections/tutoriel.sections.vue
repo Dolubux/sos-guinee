@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Hedding from '../components/hedding.vue';
+import { ConfSite } from './../configurations/control.config';
 </script>
 
 <template>
@@ -7,10 +8,10 @@ import Hedding from '../components/hedding.vue';
 
 <div class="w-11/12 m-auto  flex flex-col md:flex  md:flex-row justify-between  py-32 gap-8 items-center" id="tutoriel">
          <div class="flex flex-col w-11/12 md:w-5/12 gap-2">
-            <Hedding name="Tutoriel" />
+            <Hedding :name="ConfSite.sections?.tutoriel.title" />
 
             <div class="texts-sm">
-               Cette vidéo vous explique en détail, comment faire un don via nos différents moyens de paiement.
+               {{ ConfSite.sections?.tutoriel.content }}
             </div>
 
             <div class="">
@@ -18,8 +19,8 @@ import Hedding from '../components/hedding.vue';
             </div>
          </div>
 
-         <div class="w-11/12 md:w-7/12 h-full border-2">
-            <video width="" height="" class="h-full w-full" controls></video>
+         <div class="w-11/12 md:w-7/12 h-full">
+            <video width="" height="" class="h-full w-full rounded-xl" controls></video>
          </div>
       </div>
 

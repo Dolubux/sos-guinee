@@ -8,6 +8,7 @@ import DonationAreaSections from '../sections/donation-area.sections.vue';
 import ParternSections from '../sections/partern.sections.vue';
 import TutorielSections from '../sections/tutoriel.sections.vue';
 import ActualiteSections from '../sections/actualite.sections.vue';
+import BiggestDonorsSections from '../sections/biggest-donors.sections.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import ActualiteSections from '../sections/actualite.sections.vue';
       <BannerSections />
       <AboutsSections />
       <WhyGiveSections />
+      <BiggestDonorsSections />
       <DonationAreaSections />
       <TutorielSections />
       <ActualiteSections />

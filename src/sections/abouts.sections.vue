@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Hedding from '../components/hedding.vue';
+import { ConfSite } from './../configurations/control.config';
 </script>
 
 <template>
@@ -10,22 +11,9 @@ import Hedding from '../components/hedding.vue';
       </div>
 
       <div class="sm:w-8/12 md:w-11/12  flex flex-col gap-1 ">
-         <Hedding name="Que s’est-il passé ?" />
+         <Hedding :name="ConfSite.sections?.abouts.title" />
          <p class=" text-lg text-gray-700">
-            Le quartier Coronthie, à Conakry en Guinée, est le lieu où se trouve
-            l'unique dépôt d'hydrocarbures : l'African Petroleum Terminal (APT).
-            Ce dépôt est responsable du stockage de tout le carburant importé
-            destiné à la distribution dans les stations à travers le pays.
-            Malheureusement, le 19 décembre 2023, une explosion dévastatrice a
-            frappé ce dépôt, causant de nombreux dégâts. La commune de Kaloum a
-            été particulièrement touchée, avec de nombreux immeubles sévèrement
-            endommagés. Outre les pertes humaines (23 vies perdues et de
-            nombreux blessés), les dégâts matériels sont considérables, laissant
-            de nombreux résidents sans abri et dans le besoin. Cette catastrophe
-            a eu des répercussions dévastatrices sur la communauté, mettant en
-            évidence la nécessité d'une aide urgente et significative. Nous vous
-            invitons à donner avec le cœur afin de venir en aide aux sinistrés
-            de cette catastrophe.
+            {{ ConfSite.sections?.abouts.content }}
          </p>
       </div>
 
