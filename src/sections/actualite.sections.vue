@@ -11,8 +11,8 @@ import { ConfSite } from './../configurations/control.config';
          <Hedding name="Actualités " />
 
          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div v-for="A in ConfSite.actuality">
-               <div class="flex flex-col gap-2 rounded-xl border-[1px]">
+            <div v-for="(A, index) in ConfSite.actuality">
+               <RouterLink :to="{name: 'Actualite', params: {id: index}}" class="flex flex-col gap-2 rounded-xl border-[1px]">
                   <div class="w-full rounded-xl">
                      <img
                         class="w-fill rounded-t-xl h-[15rem] w-full object-cover"
@@ -25,7 +25,7 @@ import { ConfSite } from './../configurations/control.config';
                      <span class="font-bold text-xl "> {{ A.title.substring(0, 75) }}{{ A.title.length >= 75 ? '...': '' }}</span>
                      <span class="text-smx"> {{ A.content.substring(0, 190) }}{{ A.content.length >= 190 ? '...': '' }} </span>
                   </div>
-               </div>
+               </RouterLink>
             </div>
          </div>
       </div>

@@ -22,27 +22,27 @@ export const ConfSite = {
    menu: [
       {
          name: 'Accueil',
-         link: '',
+         link: '/',
       },
       {
          name: 'A Propos',
-         link: '#abouts',
+         link: '/#abouts',
       },
       {
          name: 'Pourquoi donner ?',
-         link: '#whyGive',
+         link: '/#whyGive',
       },
       {
          name: 'Tutoriel',
-         link: '#tutoriel',
+         link: '/#tutoriel',
       },
       {
          name: 'Actualités',
-         link: '#actuality',
+         link: '/#actuality',
       },
       {
          name: 'Contacts',
-         link: '#footer',
+         link: '/#footer',
       },
    ],
 
@@ -170,24 +170,35 @@ export const ConfSite = {
          sections: [
             {
                title: 'uinéennes et Guinéens, Mes Chers Compatriotes,',
-               content: `Aujourd’hui, nous sommes tous profondément affectés par la tragédie survenue dans la nuit du 17 au 18 décembre 2023 aux environs de minuit dans le dépôt central de la Société Guinéenne de Pétrole (SGP), situé dans la presqu’île de Kaloum. \n L’incendie dévastateur a provoqué des pertes en vies humaines, des blessés, des sans-abris mais également des dégâts matériels importants. \n Peuple souverain, solidaire et résilient de Guinée, je vous adresse mes sincères condoléances et mes vœux de prompt rétablissement aux blessés qui sont déjà intégralement et gratuitement pris en charge par l’État.`,
+               content: `Aujourd’hui, nous sommes tous profondément affectés par la tragédie survenue dans la nuit du 17 au 18 décembre 2023 aux environs de minuit dans le dépôt central de la Société Guinéenne de Pétrole (SGP), situé dans la presqu’île de Kaloum. <br /><br /> L’incendie dévastateur a provoqué des pertes en vies humaines, des blessés, des sans-abris mais également des dégâts matériels importants. <br /><br /> Peuple souverain, solidaire et résilient de Guinée, je vous adresse mes sincères condoléances et mes vœux de prompt rétablissement aux blessés qui sont déjà intégralement et gratuitement pris en charge par l’État.`,
             },
-            { title: 'Guinéennes et Guinéens, Mes Chers Compatriotes,', content: 'En ces moments de douleur et de tristesse, mes pensées vont aux familles endeuillées, affectées par cette perte insoutenable. Aux blessés et sans abris, je vous assure de toute ma compassion, mon soutien et celui du peuple de Guinée tout entier. \n Chaque fois que notre pays est confronté à des difficultés, à des défis, nous nous sommes toujours distingués par notre Union sacrée, notre générosité, notre solidarité et notre sens élevé de responsabilité. L’impressionnante chaine de solidarité qui s’est spontanément mise en place ici et à l’Étranger en est une parfaite illustration. \n L’esprit civique et l’engagement citoyen de l’ensemble des Guinéens unis et solidaires envers nos victimes face à ce malheureux évènement est l’une des preuves éloquentes de notre grande capacité à franchir cette autre étape pénible de l’histoire de notre pays grâce à la foi inébranlable et la résilience de chaque Guinéenne et de chaque Guinéen. \n C’est l’occasion pour moi, de rendre un hommage tout particulier à toutes nos structures spécialisées, notamment les Forces de Défense et de Sécurité ainsi qu’aux unités de secours pour leur promptitude et leur engagement à sauver des vies et à contenir la progression rapide de l’incendie. Leur bravoure est une lueur d’espoir dans ces moments de difficultés. \n Je tiens particulièrement à remercier les pays amis de la Guinée pour l’expression de leur solidarité et leur compassion dans ces moments que nous traversons. \n Par la même occasion je remercie également nos partenaires techniques et financiers pour leur soutien.\n Face à cette épreuve douloureuse, qui affecte tout le pays entier je décrète un Deuil National de trois (03) jours en hommage aux victimes à compter du Jeudi 21 Décembre 2023. Durant cette période, le drapeau national sera en berne sur l’ensemble du territoire et dans nos représentations diplomatiques. \n J’invite chacun et tous de continuer à garder la sérénité et le calme, la discipline en respectant les consignes et directives du Gouvernement et les services spécialisés pour nous permettre de reprendre progressivement les activités notamment à Kaloum. \n' },
-            { title: 'Que Dieu bénisse la Guinée et veille sur les Guinéennes et les Guinéens.', content: 'Je vous remercie. \n Conakry, le 20 décembre 2023 \n Colonel Mamadi DOUMBOUYA, Chef de l’État, Chef Suprême des Armées' },
+            { title: 'Guinéennes et Guinéens, Mes Chers Compatriotes,', content: 'En ces moments de douleur et de tristesse, mes pensées vont aux familles endeuillées, affectées par cette perte insoutenable. Aux blessés et sans abris, je vous assure de toute ma compassion, mon soutien et celui du peuple de Guinée tout entier. <br /><br /> Chaque fois que notre pays est confronté à des difficultés, à des défis, nous nous sommes toujours distingués par notre Union sacrée, notre générosité, notre solidarité et notre sens élevé de responsabilité. L’impressionnante chaine de solidarité qui s’est spontanément mise en place ici et à l’Étranger en est une parfaite illustration. <br /><br /> L’esprit civique et l’engagement citoyen de l’ensemble des Guinéens unis et solidaires envers nos victimes face à ce malheureux évènement est l’une des preuves éloquentes de notre grande capacité à franchir cette autre étape pénible de l’histoire de notre pays grâce à la foi inébranlable et la résilience de chaque Guinéenne et de chaque Guinéen. <br /><br /> C’est l’occasion pour moi, de rendre un hommage tout particulier à toutes nos structures spécialisées, notamment les Forces de Défense et de Sécurité ainsi qu’aux unités de secours pour leur promptitude et leur engagement à sauver des vies et à contenir la progression rapide de l’incendie. Leur bravoure est une lueur d’espoir dans ces moments de difficultés. <br /><br /> Je tiens particulièrement à remercier les pays amis de la Guinée pour l’expression de leur solidarité et leur compassion dans ces moments que nous traversons. <br /><br /> Par la même occasion je remercie également nos partenaires techniques et financiers pour leur soutien.<br /><br /> Face à cette épreuve douloureuse, qui affecte tout le pays entier je décrète un Deuil National de trois (03) jours en hommage aux victimes à compter du Jeudi 21 Décembre 2023. Durant cette période, le drapeau national sera en berne sur l’ensemble du territoire et dans nos représentations diplomatiques. <br /><br /> J’invite chacun et tous de continuer à garder la sérénité et le calme, la discipline en respectant les consignes et directives du Gouvernement et les services spécialisés pour nous permettre de reprendre progressivement les activités notamment à Kaloum. <br /><br />' },
+            { title: 'Que Dieu bénisse la Guinée et veille sur les Guinéennes et les Guinéens.', content: 'Je vous remercie. <br /><br /> Conakry, le 20 décembre 2023 <br /><br /> Colonel Mamadi DOUMBOUYA, Chef de l’État, Chef Suprême des Armées' },
          ],
       },
       {
          image: ImageArticle_2,
          title: 'Incendie à Coronthie : les mots de compassion du Système des Nations-Unies à la Guinée',
          content: `Le Système des Nations-Unies en Guinée déclare déplorer l’incendie meurtrier survenu au dépôt d’hydrocarbures de Conakry tout en manifestant sa solidarité au peuple de Guinée.`,
-            sections: []
+            sections: [
+               
+               {
+                  title: '',
+                  content: `Le Système des Nations-Unies en Guinée déclare déplorer l’incendie meurtrier survenu au dépôt d’hydrocarbures de Conakry tout en manifestant sa solidarité au peuple de Guinée. <br /><br /> “Au nom de tout le personnel et de l’équipe pays, le Coordonnateur Résident du Système des Nations-Unies en République de Guinée exprime ses plus sincères condoléances au peuple guinéen, au Président de la Transition et au Gouvernement, à la suite de l’incendie meurtrier du dépôt d’hydrocarbures du Port de Conakry, à Kaloum, dans la nuit du dimanche 17 au lundi 18 décembre 2023”, lit-on dans un communiqué parvenu à Guineenews. <br /><br /> Rappelant que c’est avec une profonde tristesse que le Système a appris la perte de vies humaines, les blessures de nombreuses personnes et les dégâts matériels importants causés par ce tragique incident, le communiqué rapporte qui suit : <br /> “Ces moments difficiles, toutes nos pensées et nos prières vont aux familles des victimes, ainsi qu’aux personnes blessées. Nous souhaitons un prompt rétablissement à toutes les personnes affectées”. <br /><br /> Tout en exprimant la solidarité du Système des Nations-Unies avec le peuple guinéen et se montrant engagé à apporter tout le soutien nécessaire au Gouvernement guinéen dans ses efforts de secours et de reconstruction, le document indique que les interventions d’urgences déployées contribuent à répondre aux besoins immédiats sanitaires, en eau, hygiène et assainissement de la population affectée, notamment les femmes et les enfants, en fournissant des abris sous forme de tentes, des citernes d’eau, des toilettes mobiles, ainsi que des kits d’hygiène, de dignité, des médicaments et d’autres fournitures essentielles. <br/> <br/> “Nous saluons la réaction des autorités marquée par l’annonce préventive de mesures sécuritaires et la mise en place d’un mécanisme de gestion de crise et de coordination. Aussi, les résultats des enquêtes diligentées par le Gouvernement afin de comprendre les causes exactes de cet incendie sont très attendus. <br/> <br/> Nous réaffirmons l’engagement des Nations Unies à apporter un soutien constant aux populations guinéennes, en étroite collaboration avec le gouvernement guinéen et la communauté internationale, autour de l’Équipe d’Urgences Pays, pour surmonter cette épreuve et œuvrer, ensemble, en faveur d’un avenir plus sûr et résilient pour la Guinée” assure le communiqué.`
+               }
+            ]
       },
       {
          image: ImageArticle_3,
          title: 'Communiqué de la Banque Centrale de la République de Guinée suite à la destruction des installations de la Société Guinéenne de Pétrole.',
          content:
             `Dans la nuit du dimanche 17 décembre 2023, le dépôt de carburant de la Société Guinéenne de Pétrole (SGP), qui se trouve être le principal dépôt de produits pétroliers du pays, a pris feu en faisant d’importants dégâts humains et matériels.`,
-            sections: []
+            sections: [
+               {
+                  title: '',
+                  content: `Dans la nuit du dimanche 17 décembre 2023, le dépôt de carburant de la Société Guinéenne de Pétrole (SGP), qui se trouve être le principal dépôt de produits pétroliers du pays, a pris feu en faisant d’importants dégâts humains et matériels. <br /><br /> A cette douloureuse occasion, la Banque Centrale de la République de Guinée, par ma voix, présente ses condoléances aux familles des victimes et à tout le peuple de Guinée pour les pertes en vies humaines. Elle souhaite également prompt rétablissement à tous les blessés de cet évènement malheureux. <br /><br /> Elle félicite et encourage toutes les bonnes volontés engagées dans la gestion de cette crise pour un retour rapide à la quiétude sociale. Elle félicite le Gouvernement et principalement, le Président de la République, le Colonel Mamadi DOUMBOUYA, pour le sens de l’Etat et la justesse des mesures mises en place pour gérer la crise. La Banque Centrale soutient et s’engage fortement auprès des plus Hautes Autorités de la Nation dans la bonne gestion de cette crise et pour que Vive la Guinée. <br /><br /> La Banque Centrale de la République de Guinée et le secteur financier assureront davantage leurs missions respectives d’accès aux services financiers aux populations et aux secteurs économiques sur toute l’étendue du territoire national. <br /><br /><br /><br /> Le Gouverneur, Dr Karamo KABA`,
+               },
+            ]
       },
    ],
    pay: [
