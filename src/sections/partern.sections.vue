@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { ConfSite } from './../configurations/header';
+import { ConfSite } from './../configurations/control.config';
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 
 // Import Swiper styles

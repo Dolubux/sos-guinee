@@ -46,9 +46,10 @@ export const ConfSite = {
       },
    ],
 
-   logo: {
+   site: {
       name: 'Solidarité Guinée Coronthie',
       image: ImageLogo,
+      copyright: '© 2023 -  Solidarité Guinée Coronthie - Tout droit reserver'
    },
 
    contact: {

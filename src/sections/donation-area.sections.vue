@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
- import {ConfSite} from "./../configurations/header"
+ import {ConfSite} from "./../configurations/control.config"
  import Vue3Autocounter from 'vue3-autocounter';
 
 </script>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ConfSite } from '../configurations/header';
+import { ConfSite } from '../configurations/control.config';
 </script>
 
 <template>

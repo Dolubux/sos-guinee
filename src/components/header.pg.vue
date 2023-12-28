@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import {} from "vue"
-import ImagesLogo from "./../assets/images/logo.jpg"
-import {ConfSite} from "./../configurations/header"
+import {ConfSite} from "./../configurations/control.config"
 import Vue3Autocounter from 'vue3-autocounter';
 
 
@@ -14,20 +12,7 @@ const CloseMenu = () => {
 
 <template>
 
-<div class="flex justify-between w-full h-20 bg-gray-700 items-center px-8 hidden">
 
-
-
-<div class="flex justify-center gap-6 text-white">
-    
-</div>
-
-
-<div class="">
-    
-</div>
-    
-</div>
 
 
 <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
@@ -35,7 +20,7 @@ const CloseMenu = () => {
     <div class="flex items-center justify-between h-full">
       <a class="flex-none text-xl font-semibold " href="#">
         <div class="">
-    <img :src="ImagesLogo" class="h-14" alt="">
+    <img :src="ConfSite.site.image" class="h-14" alt="">
 </div>
       </a>
       <div class="md:hidden" @click="CloseMenu">

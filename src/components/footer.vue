@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import ImagesLogo from "./../assets/images/logo.jpg"
+   import {ConfSite} from "./../configurations/control.config"
 </script>
 
 <template>
@@ -10,7 +10,7 @@
             <div class="w-full -mx-6 lg:w-2/5">
                 <div class="px-6">
                     <a href="#">
-                        <img class="w-auto h-16" :src="ImagesLogo" alt="">
+                        <img class="w-auto h-16" :src="ConfSite.site.image" alt="">
                     </a>
 
                     <!-- <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">Pour redonner le souris au victime</p> -->
@@ -77,7 +77,7 @@
         <hr class="h-px my-6 bg-gray-200 border-none dark:bg-gray-700">
 
         <div>
-            <p class="text-center text-gray-500 dark:text-gray-400">© 2023 -  Solidarité Guinée Coronthie - Tout droit reserver</p>
+            <p class="text-center text-gray-500 dark:text-gray-400"> {{ ConfSite.site.copyright }} </p>
         </div>
     </div>
 </footer>

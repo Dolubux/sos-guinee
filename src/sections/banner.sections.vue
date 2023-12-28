@@ -3,7 +3,7 @@
 
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
-import { ConfSite } from './../configurations/header';
+import { ConfSite } from './../configurations/control.config';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -24,7 +24,7 @@ const modules = [Navigation, Pagination, A11y, Autoplay];
          delay: 5000,
          disableOnInteraction: false,
       }"
-      class="h-[35rem] md:h-[30rem]"
+      class="h-[10rem] md:h-[30rem]"
    >
       <swiper-slide class="flex relative w-full" v-for="banner in ConfSite.sliders">
          <div class="bg-white/0 w-full h-full absolute"></div>
